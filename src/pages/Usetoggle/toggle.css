@@ -1,0 +1,66 @@
+body{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.toogle-arrow span{
+    font-size: 35px;
+    padding: 30px;
+    cursor: pointer;
+    
+}
+.toogle-arrow{
+    padding-top: 15px;
+}
+.toggle-main{
+
+  display: flex;
+  justify-content: center;
+  padding-top: 110px;
+}
+.toggle-main h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    
+}
+.toggle-main .btn{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+.toggle-main .btn-1 button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green color for success */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.main-container .btn-1 button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+
+.toggle-main .btn-2 button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff3131; /* Green color for success */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.main-container .btn-2 button:hover {
+    background-color: #a83b3b; /* Slightly darker green on hover */
+}

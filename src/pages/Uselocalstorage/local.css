@@ -1,0 +1,64 @@
+
+
+.local-main{
+   
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.local-main h1{
+    font-size: 34px;
+    font-family: sans-serif;
+    margin-bottom: 35px;
+    text-align: center;
+    
+}
+.local-main label{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(157, 167, 167);
+    text-align: center;
+}
+.local-main .label{
+    margin-bottom: 7px;
+}
+.local-main input{
+    padding: 7px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+.local-main button{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4CAF50; /* Green color for success */
+        color: white; /* Text color */
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    /* Hover effect */
+    .local-main button:hover {
+        background-color: #45a049; /* Slightly darker green on hover */
+    }
+    
+    .message{
+        padding-top: 50px;
+    }
+
+    .toogle-arrow span{
+        font-size: 35px;
+        padding: 30px;
+        cursor: pointer;
+        
+    }
+    .toogle-arrow{
+        margin-top: 15px;
+    }
